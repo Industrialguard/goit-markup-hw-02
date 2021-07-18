@@ -133,6 +133,10 @@ body {
 /* Portfolio section !!! */
 
 /* Buttons */
+.button-list {
+  list-style: none;
+}
+
 .filter-button {
   background-color: var(--hero-text-color);
   color: var(--title-text-color);
@@ -152,6 +156,7 @@ body {
   list-style: none;
 }
 .card-link {
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 .card-title {
