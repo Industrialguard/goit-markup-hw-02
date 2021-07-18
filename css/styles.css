@@ -6,6 +6,7 @@
   --logo-text-color: #000000;
   --hero-text-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -16,10 +17,12 @@ body {
 /* Site header */
 .navigation-logo {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .navigation-title {
   color: var(--logo-text-color);
+  text-decoration: none;
 }
 
 .list {
@@ -27,6 +30,7 @@ body {
 }
 
 .site-nav .link {
+  text-decoration: none;
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
@@ -35,6 +39,7 @@ body {
 }
 
 .header-contacts .link {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 
@@ -94,9 +99,25 @@ body {
 
 .footer-logo {
   color: var(--accent-color);
+  text-decoration: none;
 }
 .footer-title {
   color: var(--white-text-color);
+  text-decoration: none;
+}
+
+.adress-text {
+  color: var(--white-text-color);
+  font-style: normal;
+}
+
+.footer-list {
+  list-style: none;
+}
+.footer-list .link {
+  color: var(--footer-link-color);
+  font-style: normal;
+  text-decoration: none;
 }
 /* цвет основного текста #757575  */
 /* вторичный цвет #212121*/
