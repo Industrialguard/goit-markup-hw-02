@@ -5,15 +5,12 @@
   --white-text-color: #ffffff;
   --logo-text-color: #000000;
   --hero-text-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 
 body {
   background-color: #fff;
   color: var(--primary-text-color);
-}
-
-.list {
-  list-style: none;
 }
 
 /* Site header */
@@ -23,6 +20,10 @@ body {
 
 .navigation-title {
   color: var(--logo-text-color);
+}
+
+.list {
+  list-style: none;
 }
 
 .site-nav .link {
@@ -48,12 +49,13 @@ body {
 }
 
 /*Button on Hero */
-.button {
+.hero-button {
   background-color: var(--hero-text-color);
   color: var(--title-text-color);
 }
-.button:hover,
-.button:focus {
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
@@ -63,15 +65,39 @@ body {
   color: var(--title-text-color);
 }
 /*Features*/
+.feature-list {
+  list-style: none;
+}
 .feature-list .title {
   color: var(--title-text-color);
 }
 
+/*Activity */
+.activity-list {
+  list-style: none;
+}
 /* Team */
+.section-team {
+  background-color: var(--hero-text-color);
+}
+.team-list {
+  list-style: none;
+}
 .team-list .title {
   color: var(--title-text-color);
 }
 
+/* Site footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+  color: var(--accent-color);
+}
+.footer-title {
+  color: var(--white-text-color);
+}
 /* цвет основного текста #757575  */
 /* вторичный цвет #212121*/
 /* белый цвет
