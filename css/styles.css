@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --white-text-color: #ffffff;
   --logo-text-color: #000000;
+  --hero-text-color: #f5f4fa;
 }
 
 body {
@@ -46,13 +47,15 @@ body {
   color: #ffffff;
 }
 
+/*Button on Hero */
 .button {
+  background-color: var(--hero-text-color);
+  color: var(--title-text-color);
+}
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
-}
-.botton:hover,
-.button:focus,
-.button:active {
 }
 /* Sections */
 
