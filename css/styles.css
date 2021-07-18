@@ -5,7 +5,7 @@
   --white-text-color: #ffffff;
   --logo-text-color: #000000;
   --hero-text-color: #f5f4fa;
-  --footer-bg-color: #2f303a;
+  --first-bg-color: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -22,7 +22,6 @@ body {
 
 .navigation-title {
   color: var(--logo-text-color);
-  text-decoration: none;
 }
 
 .list {
@@ -49,6 +48,9 @@ body {
 }
 
 /* Hero */
+.section-hero {
+  background-color: var(--first-bg-color);
+}
 .hero-title {
   color: #ffffff;
 }
@@ -63,6 +65,7 @@ body {
 .hero-button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
+  cursor: pointer;
 }
 /* Sections */
 
@@ -88,13 +91,16 @@ body {
 .team-list {
   list-style: none;
 }
+.team-list .team-card {
+  background-color: var(--white-text-color);
+}
 .team-list .title {
   color: var(--title-text-color);
 }
 
 /* Site footer */
 .footer {
-  background-color: var(--footer-bg-color);
+  background-color: var(--first-bg-color);
 }
 
 .footer-logo {
@@ -103,7 +109,6 @@ body {
 }
 .footer-title {
   color: var(--white-text-color);
-  text-decoration: none;
 }
 
 .adress-text {
@@ -119,6 +124,28 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio section !!! */
+
+/* Buttons */
+.filter-button {
+  background-color: var(--hero-text-color);
+  color: var(--title-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+  cursor: pointer;
+}
+
 /* цвет основного текста #757575  */
 /* вторичный цвет #212121*/
 /* белый цвет
