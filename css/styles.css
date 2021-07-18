@@ -46,6 +46,14 @@ body {
   color: #ffffff;
 }
 
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.botton:hover,
+.button:focus,
+.button:active {
+}
 /* Sections */
 
 .section-title {
@@ -53,6 +61,11 @@ body {
 }
 /*Features*/
 .feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-list .title {
   color: var(--title-text-color);
 }
 
