@@ -146,6 +146,17 @@ body {
   cursor: pointer;
 }
 
+/* Cards title ! */
+
+.cards-list {
+  list-style: none;
+}
+.card-link {
+  text-decoration: none;
+}
+.card-title {
+  color: var(--title-text-color);
+}
 /* цвет основного текста #757575  */
 /* вторичный цвет #212121*/
 /* белый цвет
