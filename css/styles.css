@@ -19,15 +19,17 @@ body {
 .site-nav .link {
   color: #212121;
 }
-.site-nav .link:hover {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
 
 .header-contacts .link {
-  color: #212121;
+  color: #757575;
 }
 
-.header-contacts .link:hover {
+.header-contacts .link:hover,
+.header-contacts .link:focus {
   color: #2196f3;
 }
 
