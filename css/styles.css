@@ -88,15 +88,13 @@ body {
 }
 /* Sections */
 
-.section-title {
-  color: var(--title-text-color);
-}
 /*Features*/
 .feature-list {
   list-style: none;
 }
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -109,12 +107,30 @@ body {
 }
 
 /*Activity */
+.section-activity .section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .activity-list {
   list-style: none;
 }
 /* Team */
 .section-team {
   background-color: var(--hero-text-color);
+}
+
+.section-team .section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-list {
   list-style: none;
@@ -124,6 +140,15 @@ body {
 }
 .team-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team-card .team-text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* Site footer ! */
@@ -133,8 +158,14 @@ body {
 
 .footer-logo {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .footer-title {
   color: var(--white-text-color);
 }
@@ -142,6 +173,9 @@ body {
 .adress-text {
   color: var(--white-text-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer-list {
@@ -151,6 +185,9 @@ body {
   color: var(--footer-link-color);
   font-style: normal;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer-list .link:hover,
